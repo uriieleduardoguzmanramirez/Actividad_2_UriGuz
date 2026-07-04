@@ -1,19 +1,5 @@
 "use strict";
 
-/*
-    Librería: utileria.js
-    Descripción: Conjunto de funciones reutilizables para validaciones,
-    cálculos y formateo de datos en formularios HTML.
-
-    Esta librería no contiene diseño ni elementos visuales.
-    Solo contiene funciones JavaScript.
-*/
-
-/*
-    validarCorreo(correo) → boolean
-    Valida que el correo tenga un formato correcto.
-    Ejemplo válido: usuario@gmail.com
-*/
 function validarCorreo(correo) {
     if (typeof correo !== "string") {
         return false;
@@ -30,12 +16,7 @@ function validarCorreo(correo) {
     return expresionCorreo.test(correoLimpio);
 }
 
-/*
-    soloLetras(texto) → boolean
-    Valida que el texto contenga únicamente letras.
-    Acepta mayúsculas, minúsculas, vocales acentuadas, ñ y espacios.
-    Ejemplo válido: José Ángel
-*/
+
 function soloLetras(texto) {
     if (typeof texto !== "string") {
         return false;
@@ -52,11 +33,7 @@ function soloLetras(texto) {
     return expresionLetras.test(textoLimpio);
 }
 
-/*
-    validarLongitud(numero, maxLongitud) → boolean
-    Valida que un número tenga como máximo cierta cantidad de dígitos.
-    Ejemplo: validarLongitud(12345, 5) devuelve true.
-*/
+
 function validarLongitud(numero, maxLongitud) {
     if (numero === null || numero === undefined) {
         return false;
@@ -75,12 +52,6 @@ function validarLongitud(numero, maxLongitud) {
     return numeroTexto.length <= maxLongitud;
 }
 
-/*
-    calcularEdad(fechaNacimiento) → número entero
-    Calcula la edad a partir de una fecha de nacimiento.
-    La fecha debe venir en formato YYYY-MM-DD.
-    Si la fecha no es válida, devuelve -1.
-*/
 function calcularEdad(fechaNacimiento) {
     if (!fechaNacimiento) {
         return -1;
@@ -113,25 +84,13 @@ function calcularEdad(fechaNacimiento) {
     return edad;
 }
 
-/*
-    esMayorDeEdad(fechaNacimiento) → boolean
-    Valida si una persona tiene 18 años o más.
-*/
+
 function esMayorDeEdad(fechaNacimiento) {
     let edad = calcularEdad(fechaNacimiento);
 
     return edad >= 18;
 }
 
-/*
-    validarPassword(password) → boolean
-    Valida que la contraseña tenga:
-    - Mínimo 8 caracteres
-    - Una letra mayúscula
-    - Una letra minúscula
-    - Un número
-    - Un carácter especial
-*/
 function validarPassword(password) {
     if (typeof password !== "string") {
         return false;
@@ -142,13 +101,7 @@ function validarPassword(password) {
     return expresionPassword.test(password);
 }
 
-/*
-    FUNCIÓN ADICIONAL 1
-    validarTelefono(telefono) → boolean
-    Valida que un teléfono tenga exactamente 10 dígitos.
-    Acepta espacios, guiones o paréntesis, pero solo cuenta los números.
-    Ejemplo válido: 951-123-4567
-*/
+
 function validarTelefono(telefono) {
     if (telefono === null || telefono === undefined) {
         return false;
@@ -159,12 +112,7 @@ function validarTelefono(telefono) {
     return soloDigitos.length === 10;
 }
 
-/*
-    FUNCIÓN ADICIONAL 2
-    formatearNombre(nombre) → string
-    Limpia espacios innecesarios y convierte el nombre a formato correcto.
-    Ejemplo: "  juAN   péREz  " devuelve "Juan Pérez"
-*/
+
 function formatearNombre(nombre) {
     if (typeof nombre !== "string") {
         return "";
