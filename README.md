@@ -57,6 +57,7 @@ formatearNombre(nombre);
 <img width="402" height="650" alt="image" src="https://github.com/user-attachments/assets/da4a0819-a2ed-43f2-b3cd-b2a0d445b4c5" />
 
 **LOGIN**
+
 <img width="536" height="587" alt="image" src="https://github.com/user-attachments/assets/984c38dd-777b-49ae-a592-4a64200d3991" />
 
 ### Validar correo
