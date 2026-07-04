@@ -57,7 +57,8 @@ formatearNombre(nombre);
 ![alt text](image-6.png)
 
 **LOGIN**
-![alt text](image-7.png)
+<img width="536" height="587" alt="image" src="https://github.com/user-attachments/assets/984c38dd-777b-49ae-a592-4a64200d3991" />
+
 ### Validar correo
 
 Valida si el correo tiene un formato correcto.
