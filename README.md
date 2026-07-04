@@ -174,3 +174,11 @@ if (!validarPassword(passwordLogin.value)) {
 
 Esta actividad sirvió para crear una librería JavaScript reutilizable.  
 La librería permite validar datos de formularios, calcular edad y reutilizar funciones en diferentes páginas como el registro, el modal y el login.
+
+
+
+##link de video##
+
+
+
+
