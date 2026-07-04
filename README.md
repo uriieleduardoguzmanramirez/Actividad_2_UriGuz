@@ -54,7 +54,7 @@ formatearNombre(nombre);
 ## Ejemplos de uso
 **REGISTRO DE USUARIO**
 
-![alt text](image-6.png)
+<img width="402" height="650" alt="image" src="https://github.com/user-attachments/assets/da4a0819-a2ed-43f2-b3cd-b2a0d445b4c5" />
 
 **LOGIN**
 <img width="536" height="587" alt="image" src="https://github.com/user-attachments/assets/984c38dd-777b-49ae-a592-4a64200d3991" />
@@ -66,7 +66,8 @@ Valida si el correo tiene un formato correcto.
 ```javascript
 validarCorreo("alumno@gmail.com");
 ```
-![alt text](image.png)
+<img width="410" height="90" alt="image" src="https://github.com/user-attachments/assets/c4893acc-0035-4a2e-b04f-ffa1142b0ee4" />
+
 ### Validar solo letras
 
 Verifica que el texto tenga solo letras.
@@ -74,7 +75,7 @@ Verifica que el texto tenga solo letras.
 ```javascript
 soloLetras("Uriel Eduardo");
 ```
-![alt text](image-1.png)
+<img width="381" height="86" alt="image" src="https://github.com/user-attachments/assets/11645a36-9eae-41d4-8ee8-89a9aa7e30c4" />
 
 ### Validar longitud
 
@@ -99,7 +100,8 @@ Indica si una persona tiene 18 años o más.
 ```javascript
 esMayorDeEdad("2000-05-10");
 ```
-![alt text](image-5.png)
+<img width="380" height="241" alt="image" src="https://github.com/user-attachments/assets/d01f6682-ef8b-4118-8e44-95abdd2409cd" />
+
 ### Validar contraseña
 
 Revisa que la contraseña tenga mayúscula, minúscula, número, carácter especial y mínimo 8 caracteres.
@@ -107,7 +109,8 @@ Revisa que la contraseña tenga mayúscula, minúscula, número, carácter espec
 ```javascript
 validarPassword("Alumno123!");
 ```
-![alt text](image-3.png)
+<img width="442" height="104" alt="image" src="https://github.com/user-attachments/assets/518bb0fc-80fe-4f55-ad0d-76e5b80f6092" />
+
 
 ## Funciones libres
 
@@ -118,7 +121,7 @@ Valida que el teléfono tenga 10 dígitos.
 ```javascript
 validarTelefono("9511234567");
 ```
-![alt text](image-4.png)
+<img width="410" height="95" alt="image" src="https://github.com/user-attachments/assets/e17ce005-7aa5-4426-8c36-aeaefff01e8f" />
 
 
 ## Uso en el formulario
